@@ -26,12 +26,15 @@ Usage of ./words-parser:
 
 ##### Examples:
 
-Connect to the fastest server:
+To run with default parameters:
 ```sh
 ./words-parser 
 ```
 
-Connect to the fastest server:
+To run with custom parameters:
 ```sh
 ./words-parser -knownWordsDir ./fds -unknownWordsDir ~/dir2 -resultingFile res.csv
 ```
+
+### Known bugs:
+  -Incorrect handling of hyphens. 
